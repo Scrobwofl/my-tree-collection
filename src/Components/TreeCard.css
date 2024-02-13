@@ -1,0 +1,19 @@
+#tree-card {
+  background-color: cadetblue;
+  border-radius: 1rem;
+  width: 200px;
+  height: auto;
+}
+
+#tree-card > h1 {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
+#tree-card > img {
+  max-width: 100%;
+}
+
+#tree-card > p {
+  padding: 0.2rem;
+}
