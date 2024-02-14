@@ -8,10 +8,23 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #tree-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem;
 }

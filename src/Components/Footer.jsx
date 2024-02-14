@@ -2,8 +2,8 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer">
-      <h1>Made by me</h1>
+    <footer>
+      <h3>Howe Creative 2024 </h3>
     </footer>
   );
 }

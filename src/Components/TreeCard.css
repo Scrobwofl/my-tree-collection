@@ -1,12 +1,13 @@
 #tree-card {
   background-color: cadetblue;
   border-radius: 1rem;
-  width: 200px;
+  width: 300px;
   height: auto;
+  box-shadow: 0 0.7rem 1rem 0rem rgba(0, 0, 0, 0.4);
 }
 
 #tree-card > h1 {
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding: 0.5rem;
 }
 
@@ -15,5 +16,7 @@
 }
 
 #tree-card > p {
+  font-size: 1.2rem;
   padding: 0.2rem;
+  font-weight: 900;
 }

@@ -1,0 +1,8 @@
+#favourites {
+  width: 100vw;
+  height: auto;
+  background-color: beige;
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+}
