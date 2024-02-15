@@ -3,8 +3,10 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Favourites from "./Components/Favourites";
 import { interestingTrees } from "./Components/Example";
-import "./App.css";
 import TimerClean from "./Components/TimerClean";
+import CustomHookTimer from "./Components/CustomHookTimer";
+import "./App.css";
+import HiddenMonkey from "./Components/HiddenMonkey";
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
       <TimerClean />
       <Favourites />
       <Footer />
+      <CustomHookTimer />
+      <HiddenMonkey />
     </>
   );
 }

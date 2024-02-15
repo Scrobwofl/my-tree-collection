@@ -1,16 +1,21 @@
+import { useState } from "react";
 import "./HiddenMonkey.css";
 import Button from "./Button";
 
-export default function () {
-  const [visible, setVisible] = useState(0);
+export default function HiddenMonkey() {
+  const [isVisible, setIsVisible] = useState(false);
 
   return (
     <div>
-      <Button
-        onClick={() => {
-          setVisible;
-        }}
-      />
+      <Button onClick={() => setIsVisible(!isVisible)}>Toggle Me</Button>
+      {isVisible && <p>Hello Monkey</p>};
     </div>
   );
 }
+
+// /* Alternate syntax */
+// export default function HiddenMonkey() {
+//   const [isVisible, setIsVisible] = useState(false);
+
+//   return <div>{isVisible ? <p>Hello World</p> : null }</div>
+// }
